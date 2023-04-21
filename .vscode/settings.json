@@ -1,0 +1,12 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // https://github.com/tailwindlabs/tailwindcss/issues/325#issuecomment-1474423126
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
