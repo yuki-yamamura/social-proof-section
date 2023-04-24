@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="stylesheet" href="dist/output.css" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="images/favicon-32x32.png"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,9 +19,135 @@
 
     <title>Frontend Mentor | Social proof section</title>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold text-darkGrayishMagenta underline">
-      Hello World!
-    </h1>
+  <body class="text-[17px]">
+    <main
+      class="mx-auto flex max-w-6xl flex-col items-center justify-center px-6 pt-20 pb-24 lg:h-full"
+    >
+      <div class="flex flex-col pb-12 lg:flex-row lg:justify-between">
+        <section id="hero" class="mb-12 text-center lg:w-[445px] lg:text-start">
+          <h1
+            class="pb-4 text-[40px] font-bold leading-8 text-veryDarkMagenta lg:text-[56px] lg:leading-[48px]"
+          >
+            10,000+ of our users love our products.
+          </h1>
+          <span class="text-[19px] text-darkGrayishMagenta lg:leading-6">
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.</span
+          >
+        </section>
+        <section
+          id="ratings"
+          class="flex flex-col items-center gap-y-4 lg:items-start"
+        >
+          <div
+            class="flex w-full max-w-[445px] flex-col items-center gap-y-4 rounded-lg bg-lightGrayishMagenta py-4 lg:w-[445px] lg:flex-row lg:justify-evenly lg:py-5"
+          >
+            <div class="flex gap-x-2">
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+            </div>
+            <div class="font-bold leading-none text-veryDarkMagenta">
+              Rated 5 Stars in Review
+            </div>
+          </div>
+          <div
+            class="flex w-full max-w-[445px] flex-col items-center gap-y-4 rounded-lg bg-lightGrayishMagenta py-4 lg:ml-12 lg:w-[445px] lg:flex-row lg:justify-evenly lg:py-5"
+          >
+            <div class="flex gap-x-2">
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+            </div>
+            <div class="font-bold leading-none text-veryDarkMagenta">
+              Rated 5 Stars in Report Guru
+            </div>
+          </div>
+          <div
+            class="flex w-full max-w-[445px] flex-col items-center gap-y-4 rounded-lg bg-lightGrayishMagenta py-4 lg:ml-24 lg:w-[445px] lg:flex-row lg:justify-evenly lg:py-5"
+          >
+            <div class="flex gap-x-2">
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+              <img src="images/icon-star.svg" alt="star" class="h-4 w-4" />
+            </div>
+            <div class="font-bold leading-none text-veryDarkMagenta">
+              Rated 5 Stars in BestTech
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section
+        id="reviews"
+        class="flex flex-col items-center gap-y-4 lg:flex-row lg:items-start lg:gap-x-7"
+      >
+        <div class="rounded-lg bg-veryDarkMagenta py-10 px-8 text-white">
+          <div class="mb-6 flex">
+            <img
+              src="images/image-colton.jpg"
+              alt="Colton Smith"
+              class="mr-6 h-10 w-10 rounded-full"
+            />
+            <div class="leading-5">
+              <div class="font-bold">Colton Smith</div>
+              <div class="text-softPink">Verified Buyer</div>
+            </div>
+          </div>
+          <div class="leading-6 tracking-tight">
+            "We needed the same printed design as the one we had ordered a week
+            prior. Not only did they find the original order, but we also
+            received it in time. Excellent!"
+          </div>
+        </div>
+        <div
+          class="rounded-lg bg-veryDarkMagenta py-10 px-8 text-white lg:mt-4"
+        >
+          <div class="mb-6 flex">
+            <img
+              src="images/image-irene.jpg"
+              alt="Irene Roberts"
+              class="mr-6 h-10 w-10 rounded-full"
+            />
+            <div class="leading-5">
+              <div class="font-bold">Irene Roberts</div>
+              <div class="text-softPink">Verified Buyer</div>
+            </div>
+          </div>
+          <div class="leading-6 tracking-tight">
+            "Customer service is always excellent and very quick turn around.
+            Completely delighted with the simplicity of the purchase and the
+            speed of delivery."
+          </div>
+        </div>
+        <div
+          class="rounded-lg bg-veryDarkMagenta py-10 px-8 text-white lg:mt-8"
+        >
+          <div class="mb-6 flex">
+            <img
+              src="images/image-anne.jpg"
+              alt="Anne Wallace"
+              class="mr-6 h-10 w-10 rounded-full"
+            />
+            <div class="leading-5">
+              <div class="font-bold">Anne Wallace</div>
+              <div class="text-softPink">Verified Buyer</div>
+            </div>
+          </div>
+          <div class="leading-6 tracking-tight">
+            "Put an order with this company and can only praise them for the
+            very high standard. Will definitely use them again and recommend
+            them to everyone!"
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
